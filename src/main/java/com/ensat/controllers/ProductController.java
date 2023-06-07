@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * Product controller.
  */
-@Controller("/products")
+@Controller
 public class ProductController {
      @Autowired
      private ProductService productService;
